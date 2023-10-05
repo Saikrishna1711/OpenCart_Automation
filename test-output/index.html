@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\91728\eclipse-workspace\OpenCart\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">39 methods, 5 failed,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="Back_button_Test">Back_button_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Order_placement" class="method navigator-link" hash-for-method="CheckingOutProduct">CheckingOutProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="Delete_address">Delete_address</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="ForgorPassword_Back">ForgorPassword_Back</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="ForgotPassword">ForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="ADDing_New_address">ADDing_New_address</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Order_placement" class="method navigator-link" hash-for-method="AddToCart">AddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="Back_Button">Back_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="Details_update">Details_update</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="ForgorPassword_email">ForgorPassword_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="ForgorPassword_email_check">ForgorPassword_email_check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="ForgorPassword_email_invalidData">ForgorPassword_email_invalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="InvalidPassword">InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.End_to_End_Registration_Login_Logout" class="method navigator-link" hash-for-method="LoginEtoE">LoginEtoE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="Login_With_NoData">Login_With_NoData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="Login_with_Invalid_data">Login_with_Invalid_data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Login_page" class="method navigator-link" hash-for-method="Login_without_password">Login_without_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.End_to_End_Registration_Login_Logout" class="method navigator-link" hash-for-method="LogoutEtoE">LogoutEtoE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.End_to_End_Registration_Login_Logout" class="method navigator-link" hash-for-method="LogoutEtoE2">LogoutEtoE2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_LogOut_page" class="method navigator-link" hash-for-method="Logout_1">Logout_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_LogOut_page" class="method navigator-link" hash-for-method="Logout_2">Logout_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="MyAccount">MyAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="PasswordLength">PasswordLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="Password_3">Password_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="Password_update">Password_update</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration">Registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.End_to_End_Registration_Login_Logout" class="method navigator-link" hash-for-method="RegistrationEtoE">RegistrationEtoE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_2">Registration_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_3">Registration_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_Home">Registration_Home</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_Login">Registration_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_PasswordLength">Registration_PasswordLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_Policy">Registration_Policy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_Telephone">Registration_Telephone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_With_Incorrectpassword">Registration_With_Incorrectpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_With_InvalidData">Registration_With_InvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_Registration_page" class="method navigator-link" hash-for-method="Registration_with_NoData">Registration_with_NoData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opencart_Test.Validate_MyAccountFeatures" class="method navigator-link" hash-for-method="Update_address">Update_address</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Opencart_Test.Validate_Login_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgorPassword_Back">
+                  </a> <!-- ForgorPassword_Back -->
+                  <span class="method-name">ForgorPassword_Back</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Back&quot;}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KITTU&apos;, ip: &apos;192.168.10.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6379ece36fa72d209d7ae65ab997c6e8
+*** Element info: {Using=link text, value=Back}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Page_Objects.Login_page.getBackBtn(Login_page.java:50)
+	at Opencart_Test.Validate_Login_page.ForgorPassword_Back(Validate_Login_page.java:287)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgotPassword">
+                  </a> <!-- ForgotPassword -->
+                  <span class="method-name">ForgotPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.list-inline  ul &gt; li:nth-of-type(5) &gt; a&quot;}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KITTU&apos;, ip: &apos;192.168.10.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6379ece36fa72d209d7ae65ab997c6e8
+*** Element info: {Using=css selector, value=.list-inline  ul &gt; li:nth-of-type(5) &gt; a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Page_Objects.Logout_page.getLogoutBtn(Logout_page.java:22)
+	at Opencart_Test.Validate_Login_page.ForgotPassword(Validate_Login_page.java:199)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Opencart_Test.Validate_MyAccountFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Back_button_Test">
+                  </a> <!-- Back_button_Test -->
+                  <span class="method-name">Back_button_Test</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div#content &gt; ul:nth-of-type(1) &gt; li:nth-of-type(3) &gt; a&quot;}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KITTU&apos;, ip: &apos;192.168.10.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1da80daf078b1357c2209e5db34d49c8
+*** Element info: {Using=css selector, value=div#content &gt; ul:nth-of-type(1) &gt; li:nth-of-type(3) &gt; a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Page_Objects.MyAccount_page.getAddressBook(MyAccount_page.java:62)
+	at Opencart_Test.Validate_MyAccountFeatures.Back_button_Test(Validate_MyAccountFeatures.java:327)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete_address">
+                  </a> <!-- Delete_address -->
+                  <span class="method-name">Delete_address</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div#account-address &gt; .alert.alert-dismissible.alert-success&quot;}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KITTU&apos;, ip: &apos;192.168.10.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1da80daf078b1357c2209e5db34d49c8
+*** Element info: {Using=css selector, value=div#account-address &gt; .alert.alert-dismissible.alert-success}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Page_Objects.MyAccount_page.getBsucessmessage(MyAccount_page.java:150)
+	at Opencart_Test.Validate_MyAccountFeatures.Delete_address(Validate_MyAccountFeatures.java:310)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Opencart_Test.Order_placement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckingOutProduct">
+                  </a> <!-- CheckingOutProduct -->
+                  <span class="method-name">CheckingOutProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: Unexpected token &apos;&lt;&apos;, &quot;&lt;b&gt;Warning&quot;... is not valid JSON
+OK
+&lt;b&gt;Warning&lt;/b&gt;: mail(): Failed to connect to mailserver at &amp;quot;localhost&amp;quot; port 25, verify your &amp;quot;SMTP&amp;quot; and &amp;quot;smtp_port&amp;quot; setting in php.ini or use ini_set() in &lt;b&gt;C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php&lt;/b&gt; on line &lt;b&gt;77&lt;/b&gt;&lt;b&gt;Warning&lt;/b&gt;: mail(): Failed to connect to mailserver at &amp;quot;localhost&amp;quot; port 25, verify your &amp;quot;SMTP&amp;quot; and &amp;quot;smtp_port&amp;quot; setting in php.ini or use ini_set() in &lt;b&gt;C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php&lt;/b&gt; on line &lt;b&gt;77&lt;/b&gt;{&quot;redirect&quot;:&quot;http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success&quot;}}
+  (Session info: chrome=117.0.5938.92): SyntaxError: Unexpected token &apos;&lt;&apos;, &quot;&lt;b&gt;Warning&quot;... is not valid JSON
+OK
+&lt;b&gt;Warning&lt;/b&gt;: mail(): Failed to connect to mailserver at &amp;quot;localhost&amp;quot; port 25, verify your &amp;quot;SMTP&amp;quot; and &amp;quot;smtp_port&amp;quot; setting in php.ini or use ini_set() in &lt;b&gt;C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php&lt;/b&gt; on line &lt;b&gt;77&lt;/b&gt;&lt;b&gt;Warning&lt;/b&gt;: mail(): Failed to connect to mailserver at &amp;quot;localhost&amp;quot; port 25, verify your &amp;quot;SMTP&amp;quot; and &amp;quot;smtp_port&amp;quot; setting in php.ini or use ini_set() in &lt;b&gt;C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php&lt;/b&gt; on line &lt;b&gt;77&lt;/b&gt;{&quot;redirect&quot;:&quot;http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success&quot;}
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KITTU&apos;, ip: &apos;192.168.10.37&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8368338e1a7468766ed27a87a4d02f52
+*** Element info: {Using=css selector, value=input#button-confirm}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Page_Objects.Order_placement_page.getConfirmBtn(Order_placement_page.java:96)
+	at Opencart_Test.Order_placement.CheckingOutProduct(Order_placement.java:138)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Opencart_Test.Validate_Login_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgorPassword_email">
+                  </a> <!-- ForgorPassword_email -->
+                  <span class="method-name">ForgorPassword_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgorPassword_email_check">
+                  </a> <!-- ForgorPassword_email_check -->
+                  <span class="method-name">ForgorPassword_email_check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgorPassword_email_invalidData">
+                  </a> <!-- ForgorPassword_email_invalidData -->
+                  <span class="method-name">ForgorPassword_email_invalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_With_NoData">
+                  </a> <!-- Login_With_NoData -->
+                  <span class="method-name">Login_With_NoData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_with_Invalid_data">
+                  </a> <!-- Login_with_Invalid_data -->
+                  <span class="method-name">Login_with_Invalid_data</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_without_password">
+                  </a> <!-- Login_without_password -->
+                  <span class="method-name">Login_without_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Opencart_Test.Validate_MyAccountFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ADDing_New_address">
+                  </a> <!-- ADDing_New_address -->
+                  <span class="method-name">ADDing_New_address</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Back_Button">
+                  </a> <!-- Back_Button -->
+                  <span class="method-name">Back_Button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Details_update">
+                  </a> <!-- Details_update -->
+                  <span class="method-name">Details_update</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidPassword">
+                  </a> <!-- InvalidPassword -->
+                  <span class="method-name">InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyAccount">
+                  </a> <!-- MyAccount -->
+                  <span class="method-name">MyAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PasswordLength">
+                  </a> <!-- PasswordLength -->
+                  <span class="method-name">PasswordLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Password_3">
+                  </a> <!-- Password_3 -->
+                  <span class="method-name">Password_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Password_update">
+                  </a> <!-- Password_update -->
+                  <span class="method-name">Password_update</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Update_address">
+                  </a> <!-- Update_address -->
+                  <span class="method-name">Update_address</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Opencart_Test.End_to_End_Registration_Login_Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginEtoE">
+                  </a> <!-- LoginEtoE -->
+                  <span class="method-name">LoginEtoE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogoutEtoE">
+                  </a> <!-- LogoutEtoE -->
+                  <span class="method-name">LogoutEtoE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogoutEtoE2">
+                  </a> <!-- LogoutEtoE2 -->
+                  <span class="method-name">LogoutEtoE2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationEtoE">
+                  </a> <!-- RegistrationEtoE -->
+                  <span class="method-name">RegistrationEtoE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Opencart_Test.Validate_LogOut_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout_1">
+                  </a> <!-- Logout_1 -->
+                  <span class="method-name">Logout_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout_2">
+                  </a> <!-- Logout_2 -->
+                  <span class="method-name">Logout_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Opencart_Test.Validate_Registration_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration">
+                  </a> <!-- Registration -->
+                  <span class="method-name">Registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_2">
+                  </a> <!-- Registration_2 -->
+                  <span class="method-name">Registration_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_3">
+                  </a> <!-- Registration_3 -->
+                  <span class="method-name">Registration_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_Home">
+                  </a> <!-- Registration_Home -->
+                  <span class="method-name">Registration_Home</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_Login">
+                  </a> <!-- Registration_Login -->
+                  <span class="method-name">Registration_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_PasswordLength">
+                  </a> <!-- Registration_PasswordLength -->
+                  <span class="method-name">Registration_PasswordLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_Policy">
+                  </a> <!-- Registration_Policy -->
+                  <span class="method-name">Registration_Policy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_Telephone">
+                  </a> <!-- Registration_Telephone -->
+                  <span class="method-name">Registration_Telephone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_With_Incorrectpassword">
+                  </a> <!-- Registration_With_Incorrectpassword -->
+                  <span class="method-name">Registration_With_Incorrectpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_With_InvalidData">
+                  </a> <!-- Registration_With_InvalidData -->
+                  <span class="method-name">Registration_With_InvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_with_NoData">
+                  </a> <!-- Registration_with_NoData -->
+                  <span class="method-name">Registration_with_NoData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Opencart_Test.Order_placement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCart">
+                  </a> <!-- AddToCart -->
+                  <span class="method-name">AddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91728\eclipse-workspace\OpenCart\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Registration_page_Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Opencart_Test.Validate_Registration_page&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Registration&quot;/&gt;
+          &lt;include name=&quot;Registration_with_NoData&quot;/&gt;
+          &lt;include name=&quot;Registration_2&quot;/&gt;
+          &lt;include name=&quot;Registration_3&quot;/&gt;
+          &lt;include name=&quot;Registration_With_InvalidData&quot;/&gt;
+          &lt;include name=&quot;Registration_With_Incorrectpassword&quot;/&gt;
+          &lt;include name=&quot;Registration_PasswordLength&quot;/&gt;
+          &lt;include name=&quot;Registration_Policy&quot;/&gt;
+          &lt;include name=&quot;Registration_Telephone&quot;/&gt;
+          &lt;include name=&quot;Registration_Home&quot;/&gt;
+          &lt;include name=&quot;Registration_Login&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Opencart_Test.Validate_Registration_page --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration_page_Validation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LogIn_page_Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Opencart_Test.Validate_Login_page&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;include name=&quot;Login_With_NoData&quot;/&gt;
+          &lt;include name=&quot;Login_without_password&quot;/&gt;
+          &lt;include name=&quot; Login_without_email&quot;/&gt;
+          &lt;include name=&quot;Login_with_Invalid_data&quot;/&gt;
+          &lt;include name=&quot;ForgotPassword&quot;/&gt;
+          &lt;include name=&quot;ForgorPassword_email&quot;/&gt;
+          &lt;include name=&quot;ForgorPassword_email_check&quot;/&gt;
+          &lt;include name=&quot;ForgorPassword_email_invalidData&quot;/&gt;
+          &lt;include name=&quot;ForgorPassword_Back&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Opencart_Test.Validate_Login_page --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogIn_page_Validation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LogOut_page_Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Opencart_Test.Validate_LogOut_page&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Logout_1&quot;/&gt;
+          &lt;include name=&quot;Logout_2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Opencart_Test.Validate_LogOut_page --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogOut_page_Validation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MyAccount_Features_Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Opencart_Test.Validate_MyAccountFeatures&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Details_update&quot;/&gt;
+          &lt;include name=&quot;Back_Button&quot;/&gt;
+          &lt;include name=&quot;Password_update&quot;/&gt;
+          &lt;include name=&quot;InvalidPassword&quot;/&gt;
+          &lt;include name=&quot;PasswordLength&quot;/&gt;
+          &lt;include name=&quot;Password_3&quot;/&gt;
+          &lt;include name=&quot;MyAccount&quot;/&gt;
+          &lt;include name=&quot;ADDing_New_address&quot;/&gt;
+          &lt;include name=&quot;Update_address&quot;/&gt;
+          &lt;include name=&quot;Delete_address&quot;/&gt;
+          &lt;include name=&quot;Back_button_Test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Opencart_Test.Validate_MyAccountFeatures --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyAccount_Features_Validation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EndtoEnd_Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Opencart_Test.End_to_End_Registration_Login_Logout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;RegistrationEtoE&quot;/&gt;
+          &lt;include name=&quot;LogoutEtoE&quot;/&gt;
+          &lt;include name=&quot;LoginEtoE&quot;/&gt;
+          &lt;include name=&quot;LogoutEtoE2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Opencart_Test.End_to_End_Registration_Login_Logout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EndtoEnd_Validation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Order_Placement&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Opencart_Test.Order_placement&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;AddToCart&quot;/&gt;
+          &lt;include name=&quot;CheckingOutProduct&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Opencart_Test.Order_placement --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Order_Placement --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Registration_page_Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogIn_page_Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogOut_page_Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MyAccount_Features_Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EndtoEnd_Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Order_Placement (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">End to End Registration, Login and Logout </span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegistrationEtoE</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(39);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CheckingOutProduct')
+data.setCell(0, 2, 'Opencart_Test.Order_placement')
+data.setCell(0, 3, 17834);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Registration_Telephone')
+data.setCell(1, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(1, 3, 15767);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Registration_With_InvalidData')
+data.setCell(2, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(2, 3, 12717);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ForgorPassword_email_check')
+data.setCell(3, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(3, 3, 9226);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Registration')
+data.setCell(4, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(4, 3, 9123);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Login_With_NoData')
+data.setCell(5, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(5, 3, 9012);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Registration_Policy')
+data.setCell(6, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(6, 3, 8949);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Registration_3')
+data.setCell(7, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(7, 3, 8868);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Registration_2')
+data.setCell(8, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(8, 3, 8793);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RegistrationEtoE')
+data.setCell(9, 2, 'Opencart_Test.End_to_End_Registration_Login_Logout')
+data.setCell(9, 3, 8302);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Registration_With_Incorrectpassword')
+data.setCell(10, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(10, 3, 8087);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Registration_PasswordLength')
+data.setCell(11, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(11, 3, 8041);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Registration_Login')
+data.setCell(12, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(12, 3, 7155);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Registration_Home')
+data.setCell(13, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(13, 3, 7145);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ForgorPassword_email_invalidData')
+data.setCell(14, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(14, 3, 7084);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Details_update')
+data.setCell(15, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(15, 3, 6404);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Logout_2')
+data.setCell(16, 2, 'Opencart_Test.Validate_LogOut_page')
+data.setCell(16, 3, 6376);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Registration_with_NoData')
+data.setCell(17, 2, 'Opencart_Test.Validate_Registration_page')
+data.setCell(17, 3, 6190);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Login')
+data.setCell(18, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(18, 3, 5953);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Logout_1')
+data.setCell(19, 2, 'Opencart_Test.Validate_LogOut_page')
+data.setCell(19, 3, 5941);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'LoginEtoE')
+data.setCell(20, 2, 'Opencart_Test.End_to_End_Registration_Login_Logout')
+data.setCell(20, 3, 5422);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Login_without_password')
+data.setCell(21, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(21, 3, 5233);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Login_with_Invalid_data')
+data.setCell(22, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(22, 3, 5211);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Back_Button')
+data.setCell(23, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(23, 3, 3394);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'LogoutEtoE')
+data.setCell(24, 2, 'Opencart_Test.End_to_End_Registration_Login_Logout')
+data.setCell(24, 3, 3107);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'LogoutEtoE2')
+data.setCell(25, 2, 'Opencart_Test.End_to_End_Registration_Login_Logout')
+data.setCell(25, 3, 3100);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'AddToCart')
+data.setCell(26, 2, 'Opencart_Test.Order_placement')
+data.setCell(26, 3, 2955);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ForgotPassword')
+data.setCell(27, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(27, 3, 2642);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'ADDing_New_address')
+data.setCell(28, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(28, 3, 2555);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'ForgorPassword_Back')
+data.setCell(29, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(29, 3, 2486);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'ForgorPassword_email')
+data.setCell(30, 2, 'Opencart_Test.Validate_Login_page')
+data.setCell(30, 3, 2469);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Update_address')
+data.setCell(31, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(31, 3, 2279);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Password_update')
+data.setCell(32, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(32, 3, 1940);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'PasswordLength')
+data.setCell(33, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(33, 3, 1828);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'InvalidPassword')
+data.setCell(34, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(34, 3, 1751);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Password_3')
+data.setCell(35, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(35, 3, 1275);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'MyAccount')
+data.setCell(36, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(36, 3, 808);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Delete_address')
+data.setCell(37, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(37, 3, 780);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Back_button_Test')
+data.setCell(38, 2, 'Opencart_Test.Validate_MyAccountFeatures')
+data.setCell(38, 3, 16);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Opencart_Test.Validate_Login_page</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Login_without_email</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Opencart_Test.Order_placement</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">createExtentReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Opencart_Test.Validate_Registration_page</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">475 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">3796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration</span>
+                <span class="method-start">3809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">12937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_with_NoData() throws java.lang.Int...)</span>
+                <span class="method-start">12945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration_with_NoData</span>
+                <span class="method-start">12946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_with_NoData() throws java.lang.Int...)</span>
+                <span class="method-start">19138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Registration_2</span>
+                <span class="method-start">19139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_2() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">19139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_2() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">27935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_3() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">27937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration_3</span>
+                <span class="method-start">27937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_3() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">36807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_With_InvalidData() throws java.lan...)</span>
+                <span class="method-start">36807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration_With_InvalidData</span>
+                <span class="method-start">36808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_With_InvalidData() throws java.lan...)</span>
+                <span class="method-start">49527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Registration_With_Incorrectpassword</span>
+                <span class="method-start">49528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_With_Incorrectpassword() throws ja...)</span>
+                <span class="method-start">49528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_With_Incorrectpassword() throws ja...)</span>
+                <span class="method-start">57617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_PasswordLength() throws java.lang....)</span>
+                <span class="method-start">57618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration_PasswordLength</span>
+                <span class="method-start">57619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_PasswordLength() throws java.lang....)</span>
+                <span class="method-start">65663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_Policy() throws java.lang.Interrup...)</span>
+                <span class="method-start">65664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration_Policy</span>
+                <span class="method-start">65665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_Policy() throws java.lang.Interrup...)</span>
+                <span class="method-start">74615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_Telephone() throws java.lang.Inter...)</span>
+                <span class="method-start">74617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration_Telephone</span>
+                <span class="method-start">74617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_Telephone() throws java.lang.Inter...)</span>
+                <span class="method-start">90385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_Home() throws java.lang.Interrupte...)</span>
+                <span class="method-start">90387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration_Home</span>
+                <span class="method-start">90387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_Home() throws java.lang.Interrupte...)</span>
+                <span class="method-start">97532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Registration_page.Registration_Login() throws java.lang.Interrupt...)</span>
+                <span class="method-start">97533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Registration_Login</span>
+                <span class="method-start">97534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Registration_page.Registration_Login() throws java.lang.Interrupt...)</span>
+                <span class="method-start">104691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">TearUp</span>
+                <span class="method-start">104693 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Opencart_Test.Validate_Login_page</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">112974 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.Login() throws java.lang.InterruptedException)</span>
+                <span class="method-start">118030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">118031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.Login() throws java.lang.InterruptedException, [TestRe...)</span>
+                <span class="method-start">123985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.Login_With_NoData() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">123987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_With_NoData</span>
+                <span class="method-start">123988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.Login_With_NoData() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">133002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.Login_without_password() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">133003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_without_password</span>
+                <span class="method-start">133004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.Login_without_password() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">138237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.Login_with_Invalid_data() throws java.lang.Interrupted...)</span>
+                <span class="method-start">138238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_with_Invalid_data</span>
+                <span class="method-start">138239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.Login_with_Invalid_data() throws java.lang.Interrupted...)</span>
+                <span class="method-start">143451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.ForgotPassword() throws java.lang.InterruptedException)</span>
+                <span class="method-start">143452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ForgotPassword</span>
+                <span class="method-start">143453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.ForgotPassword() throws java.lang.InterruptedException...)</span>
+                <span class="method-start">146098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.ForgorPassword_email() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">146411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ForgorPassword_email</span>
+                <span class="method-start">146412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.ForgorPassword_email() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">148882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.ForgorPassword_email_check() throws java.lang.Interrup...)</span>
+                <span class="method-start">148883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ForgorPassword_email_check</span>
+                <span class="method-start">148884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.ForgorPassword_email_check() throws java.lang.Interrup...)</span>
+                <span class="method-start">158111 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.ForgorPassword_email_invalidData() throws java.lang.In...)</span>
+                <span class="method-start">158113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ForgorPassword_email_invalidData</span>
+                <span class="method-start">158113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.ForgorPassword_email_invalidData() throws java.lang.In...)</span>
+                <span class="method-start">165197 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_Login_page.ForgorPassword_Back() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">165199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ForgorPassword_Back</span>
+                <span class="method-start">165199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_Login_page.ForgorPassword_Back() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">167688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">167925 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Opencart_Test.Validate_LogOut_page</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">168082 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_LogOut_page.Logout_1() throws java.lang.InterruptedException,java...)</span>
+                <span class="method-start">169881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logout_1</span>
+                <span class="method-start">169881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_LogOut_page.Logout_1() throws java.lang.InterruptedException,java...)</span>
+                <span class="method-start">175822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_LogOut_page.Logout_2() throws java.lang.InterruptedException)</span>
+                <span class="method-start">175824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logout_2</span>
+                <span class="method-start">175824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_LogOut_page.Logout_2() throws java.lang.InterruptedException, [Te...)</span>
+                <span class="method-start">182201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">182202 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Opencart_Test.Validate_MyAccountFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">182320 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.Details_update() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">187247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Details_update</span>
+                <span class="method-start">187248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.Details_update() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">193653 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Back_Button</span>
+                <span class="method-start">193654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.Back_Button() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">193654 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.Back_Button() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">197049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Password_update</span>
+                <span class="method-start">197050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.Password_update())</span>
+                <span class="method-start">197050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.Password_update(), [TestResult name=Password_up...)</span>
+                <span class="method-start">198992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.InvalidPassword())</span>
+                <span class="method-start">198993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidPassword</span>
+                <span class="method-start">198994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.InvalidPassword(), [TestResult name=InvalidPass...)</span>
+                <span class="method-start">200747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.PasswordLength())</span>
+                <span class="method-start">200748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PasswordLength</span>
+                <span class="method-start">200749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.PasswordLength(), [TestResult name=PasswordLeng...)</span>
+                <span class="method-start">202578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.Password_3())</span>
+                <span class="method-start">202580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Password_3</span>
+                <span class="method-start">202580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.Password_3(), [TestResult name=Password_3 statu...)</span>
+                <span class="method-start">203856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.MyAccount())</span>
+                <span class="method-start">203859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyAccount</span>
+                <span class="method-start">203860 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.MyAccount(), [TestResult name=MyAccount status=...)</span>
+                <span class="method-start">204669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ADDing_New_address</span>
+                <span class="method-start">204671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.ADDing_New_address())</span>
+                <span class="method-start">204671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.ADDing_New_address(), [TestResult name=ADDing_N...)</span>
+                <span class="method-start">207227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Update_address</span>
+                <span class="method-start">207228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.Update_address())</span>
+                <span class="method-start">207228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.Update_address(), [TestResult name=Update_addre...)</span>
+                <span class="method-start">209509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.Delete_address())</span>
+                <span class="method-start">209511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Delete_address</span>
+                <span class="method-start">209511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.Delete_address(), [TestResult name=Delete_addre...)</span>
+                <span class="method-start">210297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Validate_MyAccountFeatures.Back_button_Test())</span>
+                <span class="method-start">210514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Back_button_Test</span>
+                <span class="method-start">210515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Validate_MyAccountFeatures.Back_button_Test(), [TestResult name=Back_butto...)</span>
+                <span class="method-start">210532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">210708 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Opencart_Test.End_to_End_Registration_Login_Logout</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">211528 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.End_to_End_Registration_Login_Logout.RegistrationEtoE() throws java.lang.I...)</span>
+                <span class="method-start">213087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationEtoE</span>
+                <span class="method-start">213088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.End_to_End_Registration_Login_Logout.RegistrationEtoE() throws java.lang.I...)</span>
+                <span class="method-start">221391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.End_to_End_Registration_Login_Logout.LogoutEtoE() throws java.lang.Interru...)</span>
+                <span class="method-start">221392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogoutEtoE</span>
+                <span class="method-start">221392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.End_to_End_Registration_Login_Logout.LogoutEtoE() throws java.lang.Interru...)</span>
+                <span class="method-start">224501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.End_to_End_Registration_Login_Logout.LoginEtoE() throws java.lang.Interrup...)</span>
+                <span class="method-start">224502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginEtoE</span>
+                <span class="method-start">224503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.End_to_End_Registration_Login_Logout.LoginEtoE() throws java.lang.Interrup...)</span>
+                <span class="method-start">229927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LogoutEtoE2</span>
+                <span class="method-start">229928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.End_to_End_Registration_Login_Logout.LogoutEtoE2() throws java.lang.Interr...)</span>
+                <span class="method-start">229928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.End_to_End_Registration_Login_Logout.LogoutEtoE2() throws java.lang.Interr...)</span>
+                <span class="method-start">233029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">TearUp</span>
+                <span class="method-start">233029 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Opencart_Test.Order_placement</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">236292 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Order_placement.AddToCart() throws java.lang.InterruptedException)</span>
+                <span class="method-start">243181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCart</span>
+                <span class="method-start">243181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Order_placement.AddToCart() throws java.lang.InterruptedException, [TestRe...)</span>
+                <span class="method-start">246137 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reporting(public void Opencart_Test.Order_placement.CheckingOutProduct() throws java.lang.InterruptedException)</span>
+                <span class="method-start">246137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CheckingOutProduct</span>
+                <span class="method-start">246138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void Opencart_Test.Order_placement.CheckingOutProduct() throws java.lang.InterruptedException...)</span>
+                <span class="method-start">263975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">TearUp</span>
+                <span class="method-start">264189 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">flush</span>
+                <span class="method-start">267504 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

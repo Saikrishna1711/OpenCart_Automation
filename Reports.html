@@ -1,0 +1,4326 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 5, 2023 09:26:49 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('device-view')">
+<a id="nav-device" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tablet"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Saikrishna</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Logout_Validation</a><a class="dropdown-item" href="#">MyAccount_Validation</a><a class="dropdown-item" href="#">EndtoEndRegistration,LoginandLogout</a><a class="dropdown-item" href="#">Orderplacement</a><a class="dropdown-item" href="#">Registration_Validation</a><a class="dropdown-item" href="#">Login_Validation</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tablet"></i></a>
+<ul id="device-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Chrome114</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration</p>
+            <p class="text-sm">
+              <span>9:26:53 am</span> / <span>00:00:09:138</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration</h5>
+<span class='badge badge-success'>10.05.2023 9:26:53 am</span>
+<span class='badge badge-danger'>10.05.2023 9:27:02 am</span>
+<span class='badge badge-default'>00:00:09:138</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:53 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:56 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:58 am</td>
+        <td>
+          Successfully Entered First name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:58 am</td>
+        <td>
+          Successfully Entered Last name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:58 am</td>
+        <td>
+          Successfully Entered Email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:59 am</td>
+        <td>
+          Successfully Entered Telephone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:59 am</td>
+        <td>
+          Successfully Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:59 am</td>
+        <td>
+          Successfully confirmed password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:59 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:26:59 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:02 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:02 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:02 am</td>
+        <td>
+          Successfully clicked logout Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:02 am</td>
+        <td>
+          Registration Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_with_NoData</p>
+            <p class="text-sm">
+              <span>9:27:02 am</span> / <span>00:00:06:193</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_with_NoData</h5>
+<span class='badge badge-success'>10.05.2023 9:27:02 am</span>
+<span class='badge badge-danger'>10.05.2023 9:27:08 am</span>
+<span class='badge badge-default'>00:00:06:193</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:02 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:05 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:08 am</td>
+        <td>
+           havent entered any details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:08 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:08 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:08 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:08 am</td>
+        <td>
+          Registration_with_NoData Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_2</p>
+            <p class="text-sm">
+              <span>9:27:09 am</span> / <span>00:00:08:797</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_2</h5>
+<span class='badge badge-success'>10.05.2023 9:27:09 am</span>
+<span class='badge badge-danger'>10.05.2023 9:27:17 am</span>
+<span class='badge badge-default'>00:00:08:797</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:09 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:11 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:14 am</td>
+        <td>
+          Successfully entered all mandatory details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:14 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:14 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:17 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:17 am</td>
+        <td>
+          Successfullyclicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:17 am</td>
+        <td>
+          Successfully clicked logout Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:17 am</td>
+        <td>
+          Registration_2 Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_3</p>
+            <p class="text-sm">
+              <span>9:27:17 am</span> / <span>00:00:08:870</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_3</h5>
+<span class='badge badge-success'>10.05.2023 9:27:17 am</span>
+<span class='badge badge-danger'>10.05.2023 9:27:26 am</span>
+<span class='badge badge-default'>00:00:08:870</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:17 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:20 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:23 am</td>
+        <td>
+          Successfully entered all mandatory details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:23 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:23 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:25 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:26 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:26 am</td>
+        <td>
+          Successfully clicked logout Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:26 am</td>
+        <td>
+          Registration_3 Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_With_InvalidData</p>
+            <p class="text-sm">
+              <span>9:27:26 am</span> / <span>00:00:12:719</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_With_InvalidData</h5>
+<span class='badge badge-success'>10.05.2023 9:27:26 am</span>
+<span class='badge badge-danger'>10.05.2023 9:27:39 am</span>
+<span class='badge badge-default'>00:00:12:719</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:26 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:29 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:32 am</td>
+        <td>
+          entered invalid details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:32 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:32 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:32 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:39 am</td>
+        <td>
+          Registration_With_InvalidData Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_With_Incorrectpassword</p>
+            <p class="text-sm">
+              <span>9:27:39 am</span> / <span>00:00:08:090</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_With_Incorrectpassword</h5>
+<span class='badge badge-success'>10.05.2023 9:27:39 am</span>
+<span class='badge badge-danger'>10.05.2023 9:27:47 am</span>
+<span class='badge badge-default'>00:00:08:090</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:39 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:41 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:44 am</td>
+        <td>
+          entered invalid password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:44 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:45 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:45 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:47 am</td>
+        <td>
+          Registration_With_Incorrectpassword Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_PasswordLength</p>
+            <p class="text-sm">
+              <span>9:27:47 am</span> / <span>00:00:08:045</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_PasswordLength</h5>
+<span class='badge badge-success'>10.05.2023 9:27:47 am</span>
+<span class='badge badge-danger'>10.05.2023 9:27:55 am</span>
+<span class='badge badge-default'>00:00:08:045</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:47 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:50 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:52 am</td>
+        <td>
+          entered invalid password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:52 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:53 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:53 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:55 am</td>
+        <td>
+          Registration_PasswordLength Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_Policy</p>
+            <p class="text-sm">
+              <span>9:27:55 am</span> / <span>00:00:08:951</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_Policy</h5>
+<span class='badge badge-success'>10.05.2023 9:27:55 am</span>
+<span class='badge badge-danger'>10.05.2023 9:28:04 am</span>
+<span class='badge badge-default'>00:00:08:951</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:55 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:27:58 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:00 am</td>
+        <td>
+          entered all mandatory details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:00 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:01 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:04 am</td>
+        <td>
+          Registration_Policy Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_Telephone</p>
+            <p class="text-sm">
+              <span>9:28:04 am</span> / <span>00:00:15:768</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_Telephone</h5>
+<span class='badge badge-success'>10.05.2023 9:28:04 am</span>
+<span class='badge badge-danger'>10.05.2023 9:28:20 am</span>
+<span class='badge badge-default'>00:00:15:768</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:04 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:07 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:09 am</td>
+        <td>
+          entered all mandatory details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:09 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:10 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:12 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:19 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:20 am</td>
+        <td>
+          Successfully clicked logout Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:20 am</td>
+        <td>
+          Registration_Telephone Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_Home</p>
+            <p class="text-sm">
+              <span>9:28:20 am</span> / <span>00:00:07:146</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_Home</h5>
+<span class='badge badge-success'>10.05.2023 9:28:20 am</span>
+<span class='badge badge-danger'>10.05.2023 9:28:27 am</span>
+<span class='badge badge-default'>00:00:07:146</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:20 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:22 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:25 am</td>
+        <td>
+          Successfully clicked Home Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:27 am</td>
+        <td>
+          Registration_Home Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="Saikrishna"
+          tag="Registration_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Registration_Login</p>
+            <p class="text-sm">
+              <span>9:28:27 am</span> / <span>00:00:07:157</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registration_Login</h5>
+<span class='badge badge-success'>10.05.2023 9:28:27 am</span>
+<span class='badge badge-danger'>10.05.2023 9:28:34 am</span>
+<span class='badge badge-default'>00:00:07:157</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Registration_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:27 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:29 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:32 am</td>
+        <td>
+          Successfully clicked login Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:34 am</td>
+        <td>
+          Registration_Login Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Login</p>
+            <p class="text-sm">
+              <span>9:28:47 am</span> / <span>00:00:05:956</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login</h5>
+<span class='badge badge-success'>10.05.2023 9:28:47 am</span>
+<span class='badge badge-danger'>10.05.2023 9:28:53 am</span>
+<span class='badge badge-default'>00:00:05:956</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:48 am</td>
+        <td>
+          Sucessfully clicked MyAccount 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:50 am</td>
+        <td>
+          Sucessfully clicked Login 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:50 am</td>
+        <td>
+          Sucessfully Entered Email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:50 am</td>
+        <td>
+          Sucessfully Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:51 am</td>
+        <td>
+          Sucessfully clicked Login 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:53 am</td>
+        <td>
+          Suceesfuuly clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:53 am</td>
+        <td>
+          Suceesfuuly clicked logout Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:53 am</td>
+        <td>
+          Login Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Login_With_NoData</p>
+            <p class="text-sm">
+              <span>9:28:53 am</span> / <span>00:00:09:014</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login_With_NoData</h5>
+<span class='badge badge-success'>10.05.2023 9:28:53 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:02 am</span>
+<span class='badge badge-default'>00:00:09:014</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:53 am</td>
+        <td>
+          Sucessfully clicked MyAccount 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:56 am</td>
+        <td>
+          Sucessfully clicked Login 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:28:58 am</td>
+        <td>
+          Sucessfully clicked Login 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:02 am</td>
+        <td>
+          Login_With_NoData Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Login_without_password</p>
+            <p class="text-sm">
+              <span>9:29:02 am</span> / <span>00:00:05:234</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login_without_password</h5>
+<span class='badge badge-success'>10.05.2023 9:29:02 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:08 am</span>
+<span class='badge badge-default'>00:00:05:234</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:02 am</td>
+        <td>
+          Sucessfully clicked MyAccount 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:05 am</td>
+        <td>
+          Sucessfully clicked Login 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:05 am</td>
+        <td>
+          Sucessfully Entered Email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:08 am</td>
+        <td>
+          Login_without_password Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Login_with_Invalid_data</p>
+            <p class="text-sm">
+              <span>9:29:08 am</span> / <span>00:00:05:212</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login_with_Invalid_data</h5>
+<span class='badge badge-success'>10.05.2023 9:29:08 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:13 am</span>
+<span class='badge badge-default'>00:00:05:212</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:08 am</td>
+        <td>
+          Sucessfully clicked MyAccount 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:10 am</td>
+        <td>
+          Sucessfully clicked Login 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:10 am</td>
+        <td>
+          Sucessfully Entered invalid email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:10 am</td>
+        <td>
+          Sucessfully Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:13 am</td>
+        <td>
+          Login_with_Invalid_data Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">ForgotPassword</p>
+            <p class="text-sm">
+              <span>9:29:13 am</span> / <span>00:00:02:956</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">ForgotPassword</h5>
+<span class='badge badge-success'>10.05.2023 9:29:13 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:16 am</span>
+<span class='badge badge-default'>00:00:02:956</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\ForgotPassword 05-10-2023_09-29-16.png' src="C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\ForgotPassword 05-10-2023_09-29-16.png">
+    <div class="title">ForgotPassword</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:13 am</td>
+        <td>
+          Sucessfully cliced forgot password button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:15 am</td>
+        <td>
+          Suceesfuuly clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:29:16 am</td>
+        <td>
+          ForgotPassword is failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">ForgorPassword_email</p>
+            <p class="text-sm">
+              <span>9:29:16 am</span> / <span>00:00:02:470</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ForgorPassword_email</h5>
+<span class='badge badge-success'>10.05.2023 9:29:16 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:18 am</span>
+<span class='badge badge-default'>00:00:02:470</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:16 am</td>
+        <td>
+          Sucessfully cliced forgor password button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:18 am</td>
+        <td>
+          ForgorPassword_email Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">ForgorPassword_email_check</p>
+            <p class="text-sm">
+              <span>9:29:18 am</span> / <span>00:00:09:229</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ForgorPassword_email_check</h5>
+<span class='badge badge-success'>10.05.2023 9:29:18 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:27 am</span>
+<span class='badge badge-default'>00:00:09:229</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:19 am</td>
+        <td>
+          Sucessfully cliked forgot password button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:21 am</td>
+        <td>
+          Sucessfully entered  email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:23 am</td>
+        <td>
+          Sucessfully cliked continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:27 am</td>
+        <td>
+          ForgorPassword_email_check Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">ForgorPassword_email_invalidData</p>
+            <p class="text-sm">
+              <span>9:29:27 am</span> / <span>00:00:07:085</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ForgorPassword_email_invalidData</h5>
+<span class='badge badge-success'>10.05.2023 9:29:27 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:35 am</span>
+<span class='badge badge-default'>00:00:07:085</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:28 am</td>
+        <td>
+          Sucessfully cliked forgot password button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:30 am</td>
+        <td>
+          Sucessfully entered invalid email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:31 am</td>
+        <td>
+          Sucessfully cliked continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:35 am</td>
+        <td>
+          ForgorPassword_email_invalidData Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="20"
+          author="Saikrishna"
+          tag="Login_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">ForgorPassword_Back</p>
+            <p class="text-sm">
+              <span>9:29:35 am</span> / <span>00:00:02:725</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">ForgorPassword_Back</h5>
+<span class='badge badge-success'>10.05.2023 9:29:35 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:37 am</span>
+<span class='badge badge-default'>00:00:02:725</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Login_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\ForgorPassword_Back 05-10-2023_09-29-37.png' src="C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\ForgorPassword_Back 05-10-2023_09-29-37.png">
+    <div class="title">ForgorPassword_Back</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:35 am</td>
+        <td>
+          Sucessfully cliked Forgot password button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:29:37 am</td>
+        <td>
+          ForgorPassword_Back is failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author="Saikrishna"
+          tag="Logout_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Logout_1</p>
+            <p class="text-sm">
+              <span>9:29:39 am</span> / <span>00:00:05:941</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logout_1</h5>
+<span class='badge badge-success'>10.05.2023 9:29:39 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:45 am</span>
+<span class='badge badge-default'>00:00:05:941</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Logout_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:42 am</td>
+        <td>
+          Successfully clicked login Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:42 am</td>
+        <td>
+          Entered Email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:42 am</td>
+        <td>
+          Entered Password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:43 am</td>
+        <td>
+          Suceesfuuly clicked login Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:45 am</td>
+        <td>
+          Suceesfuuly clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:45 am</td>
+        <td>
+          Suceesfuuly clicked logout Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:45 am</td>
+        <td>
+          Logout_1 Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author="Saikrishna"
+          tag="Logout_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Logout_2</p>
+            <p class="text-sm">
+              <span>9:29:45 am</span> / <span>00:00:06:377</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logout_2</h5>
+<span class='badge badge-success'>10.05.2023 9:29:45 am</span>
+<span class='badge badge-danger'>10.05.2023 9:29:52 am</span>
+<span class='badge badge-default'>00:00:06:377</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Logout_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:45 am</td>
+        <td>
+          Suceesfuuly Clicked account Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:48 am</td>
+        <td>
+          Suceesfuuly clicked login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:48 am</td>
+        <td>
+          Suceesfuuly enetered email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:48 am</td>
+        <td>
+          Suceesfuuly entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:51 am</td>
+        <td>
+          Suceesfuuly clicked logout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:52 am</td>
+        <td>
+          Logout_2 Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Details_update</p>
+            <p class="text-sm">
+              <span>9:29:57 am</span> / <span>00:00:06:405</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Details_update</h5>
+<span class='badge badge-success'>10.05.2023 9:29:57 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:03 am</span>
+<span class='badge badge-default'>00:00:06:405</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:57 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:57 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:29:58 am</td>
+        <td>
+          Entered New details 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:03 am</td>
+        <td>
+          Details_update Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Back_Button</p>
+            <p class="text-sm">
+              <span>9:30:03 am</span> / <span>00:00:03:396</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Back_Button</h5>
+<span class='badge badge-success'>10.05.2023 9:30:03 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:06 am</span>
+<span class='badge badge-default'>00:00:03:396</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:03 am</td>
+        <td>
+          Successfully clicked Edit Information Link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:06 am</td>
+        <td>
+          Successfully clicked Back Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:06 am</td>
+        <td>
+          Back_Button Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Password_update</p>
+            <p class="text-sm">
+              <span>9:30:06 am</span> / <span>00:00:01:942</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Password_update</h5>
+<span class='badge badge-success'>10.05.2023 9:30:06 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:08 am</span>
+<span class='badge badge-default'>00:00:01:942</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:07 am</td>
+        <td>
+          Successfully clicked Change password link 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:07 am</td>
+        <td>
+          Successfully entered password 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:08 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:08 am</td>
+        <td>
+          Password_update Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">InvalidPassword</p>
+            <p class="text-sm">
+              <span>9:30:08 am</span> / <span>00:00:01:753</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">InvalidPassword</h5>
+<span class='badge badge-success'>10.05.2023 9:30:08 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:10 am</span>
+<span class='badge badge-default'>00:00:01:753</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:09 am</td>
+        <td>
+          Successfully clicked change password link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:09 am</td>
+        <td>
+          Entered invalid password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:09 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:10 am</td>
+        <td>
+          InvalidPassword Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">PasswordLength</p>
+            <p class="text-sm">
+              <span>9:30:10 am</span> / <span>00:00:01:831</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PasswordLength</h5>
+<span class='badge badge-success'>10.05.2023 9:30:10 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:12 am</span>
+<span class='badge badge-default'>00:00:01:831</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:11 am</td>
+        <td>
+          Successfully clicked change password link 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:11 am</td>
+        <td>
+          Entered invalid password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:11 am</td>
+        <td>
+           clicked Continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:12 am</td>
+        <td>
+          PasswordLength Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Password_3</p>
+            <p class="text-sm">
+              <span>9:30:12 am</span> / <span>00:00:01:278</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Password_3</h5>
+<span class='badge badge-success'>10.05.2023 9:30:12 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:13 am</span>
+<span class='badge badge-default'>00:00:01:278</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:12 am</td>
+        <td>
+          Successfully clicked change password link 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:13 am</td>
+        <td>
+          Successfully back Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:13 am</td>
+        <td>
+          Password_3 Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">MyAccount</p>
+            <p class="text-sm">
+              <span>9:30:13 am</span> / <span>00:00:00:809</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MyAccount</h5>
+<span class='badge badge-success'>10.05.2023 9:30:13 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:14 am</span>
+<span class='badge badge-default'>00:00:00:809</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:14 am</td>
+        <td>
+          Successfully clicked adress book
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:14 am</td>
+        <td>
+          MyAccount Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">ADDing_New_address</p>
+            <p class="text-sm">
+              <span>9:30:14 am</span> / <span>00:00:02:556</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ADDing_New_address</h5>
+<span class='badge badge-success'>10.05.2023 9:30:14 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:17 am</span>
+<span class='badge badge-default'>00:00:02:556</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:14 am</td>
+        <td>
+          Successfully clicked adress book link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:15 am</td>
+        <td>
+          Successfully clicked new adress book link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:16 am</td>
+        <td>
+          Entered all mandatory details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:16 am</td>
+        <td>
+          Successfully clicked continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:17 am</td>
+        <td>
+          ADDing_New_address Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Update_address</p>
+            <p class="text-sm">
+              <span>9:30:17 am</span> / <span>00:00:02:281</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Update_address</h5>
+<span class='badge badge-success'>10.05.2023 9:30:17 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:19 am</span>
+<span class='badge badge-default'>00:00:02:281</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:17 am</td>
+        <td>
+          Successfully clicked adress book link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:17 am</td>
+        <td>
+          Successfully clicked edit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:18 am</td>
+        <td>
+          Entered all mandatory details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:18 am</td>
+        <td>
+          Successfully clicked continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:19 am</td>
+        <td>
+          Update_address Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="32"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Delete_address</p>
+            <p class="text-sm">
+              <span>9:30:19 am</span> / <span>00:00:01:003</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Delete_address</h5>
+<span class='badge badge-success'>10.05.2023 9:30:19 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:20 am</span>
+<span class='badge badge-default'>00:00:01:003</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\Delete_address 05-10-2023_09-30-20.png' src="C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\Delete_address 05-10-2023_09-30-20.png">
+    <div class="title">Delete_address</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:19 am</td>
+        <td>
+          Successfully clicked adress book link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:19 am</td>
+        <td>
+          Successfully clicked edit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:30:20 am</td>
+        <td>
+          Delete_address is failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="33"
+          author="Saikrishna"
+          tag="MyAccount_Validation"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">Back_button_Test</p>
+            <p class="text-sm">
+              <span>9:30:20 am</span> / <span>00:00:00:193</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Back_button_Test</h5>
+<span class='badge badge-success'>10.05.2023 9:30:20 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:20 am</span>
+<span class='badge badge-default'>00:00:00:193</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">MyAccount_Validation</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\Back_button_Test 05-10-2023_09-30-20.png' src="C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\Back_button_Test 05-10-2023_09-30-20.png">
+    <div class="title">Back_button_Test</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:30:20 am</td>
+        <td>
+          Back_button_Test is failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author="Saikrishna"
+          tag="EndtoEndRegistration,LoginandLogout"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">RegistrationEtoE</p>
+            <p class="text-sm">
+              <span>9:30:22 am</span> / <span>00:00:08:303</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">RegistrationEtoE</h5>
+<span class='badge badge-success'>10.05.2023 9:30:22 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:31 am</span>
+<span class='badge badge-default'>00:00:08:303</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">EndtoEndRegistration,LoginandLogout</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:23 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:25 am</td>
+        <td>
+          Successfully clicked Registration Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:28 am</td>
+        <td>
+          Entered all mandatory details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:28 am</td>
+        <td>
+          Successfully clicked No 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:28 am</td>
+        <td>
+          Successfully Agreed Policy terms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:31 am</td>
+        <td>
+          Successfully clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:31 am</td>
+        <td>
+          RegistrationEtoE Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author="Saikrishna"
+          tag="EndtoEndRegistration,LoginandLogout"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">LogoutEtoE</p>
+            <p class="text-sm">
+              <span>9:30:31 am</span> / <span>00:00:03:109</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">LogoutEtoE</h5>
+<span class='badge badge-success'>10.05.2023 9:30:31 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:34 am</span>
+<span class='badge badge-default'>00:00:03:109</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">EndtoEndRegistration,LoginandLogout</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:31 am</td>
+        <td>
+          Successfully clicked MyAccount Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:33 am</td>
+        <td>
+          Suceesfuuly clicked logout Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:34 am</td>
+        <td>
+          Suceesfuuly clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:34 am</td>
+        <td>
+          LogoutEtoE Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author="Saikrishna"
+          tag="EndtoEndRegistration,LoginandLogout"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">LoginEtoE</p>
+            <p class="text-sm">
+              <span>9:30:34 am</span> / <span>00:00:05:424</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">LoginEtoE</h5>
+<span class='badge badge-success'>10.05.2023 9:30:34 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:39 am</span>
+<span class='badge badge-default'>00:00:05:424</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">EndtoEndRegistration,LoginandLogout</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:34 am</td>
+        <td>
+          Sucessfully clicked MyAccount 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:36 am</td>
+        <td>
+          Sucessfully clicked Login 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:37 am</td>
+        <td>
+          Sucessfully Entered Email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:37 am</td>
+        <td>
+          Sucessfully Entered password
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:37 am</td>
+        <td>
+          Sucessfully clicked Login 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:39 am</td>
+        <td>
+          LoginEtoE Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author="Saikrishna"
+          tag="EndtoEndRegistration,LoginandLogout"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">LogoutEtoE2</p>
+            <p class="text-sm">
+              <span>9:30:39 am</span> / <span>00:00:03:101</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">LogoutEtoE2</h5>
+<span class='badge badge-success'>10.05.2023 9:30:39 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:42 am</span>
+<span class='badge badge-default'>00:00:03:101</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">EndtoEndRegistration,LoginandLogout</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:39 am</td>
+        <td>
+          Sucessfully clicked MyAccount 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:42 am</td>
+        <td>
+          Suceesfuuly clicked logout Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:42 am</td>
+        <td>
+          Suceesfuuly clicked continue Button 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:42 am</td>
+        <td>
+          LogoutEtoE2 Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author="Saikrishna"
+          tag="Orderplacement"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">AddToCart</p>
+            <p class="text-sm">
+              <span>9:30:53 am</span> / <span>00:00:02:956</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">AddToCart</h5>
+<span class='badge badge-success'>10.05.2023 9:30:53 am</span>
+<span class='badge badge-danger'>10.05.2023 9:30:55 am</span>
+<span class='badge badge-default'>00:00:02:956</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Orderplacement</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:53 am</td>
+        <td>
+          Sucessfully searched product
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:53 am</td>
+        <td>
+          Sucessfully added product to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:55 am</td>
+        <td>
+          AddToCart Is Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="39"
+          author="Saikrishna"
+          tag="Orderplacement"
+          device="Chrome114">
+          <div class="test-detail">
+            <p class="name">CheckingOutProduct</p>
+            <p class="text-sm">
+              <span>9:30:55 am</span> / <span>00:00:18:049</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">CheckingOutProduct</h5>
+<span class='badge badge-success'>10.05.2023 9:30:55 am</span>
+<span class='badge badge-danger'>10.05.2023 9:31:14 am</span>
+<span class='badge badge-default'>00:00:18:049</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Saikrishna</span>
+<span class="badge badge-pill badge-default">Orderplacement</span>
+<span class="badge badge-pill badge-default">Chrome114</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\CheckingOutProduct 05-10-2023_09-31-14.png' src="C:\Users\91728\eclipse-workspace\OpenCart\.\Screenshots\CheckingOutProduct 05-10-2023_09-31-14.png">
+    <div class="title">CheckingOutProduct</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:56 am</td>
+        <td>
+          Sucessfully opened shopping cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:30:59 am</td>
+        <td>
+          Sucessfully checked out
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:00 am</td>
+        <td>
+          Sucessfully clicked use existing address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:02 am</td>
+        <td>
+          Sucessfully clicked continue
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:04 am</td>
+        <td>
+          Sucessfully clicked continue
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:05 am</td>
+        <td>
+          Sucessfully clicked continue
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:06 am</td>
+        <td>
+          Sucessfully clicked checkbox
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:07 am</td>
+        <td>
+          Sucessfully clicked continue
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:31:13 am</td>
+        <td>
+          Sucessfully confirmed order
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:31:14 am</td>
+        <td>
+          CheckingOutProduct is failed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">Logout_Validation</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Logout_Validation</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:39 am</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Logout_1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:45 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>Logout_2</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">MyAccount_Validation</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>MyAccount_Validation</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:57 am</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Details_update</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:03 am</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>Back_Button</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:06 am</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Password_update</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:08 am</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>InvalidPassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:10 am</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>PasswordLength</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:12 am</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>Password_3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:13 am</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>MyAccount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:14 am</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>ADDing_New_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:17 am</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>Update_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:19 am</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>Delete_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:20 am</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>Back_button_Test</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">EndtoEndRegistration,LoginandLogout</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>EndtoEndRegistration,LoginandLogout</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:22 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>RegistrationEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:31 am</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>LogoutEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:34 am</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>LoginEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:39 am</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>LogoutEtoE2</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">Orderplacement</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Orderplacement</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:53 am</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>AddToCart</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:55 am</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>CheckingOutProduct</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>11</span>
+</span>
+<p class="name">Registration_Validation</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Registration_Validation</h4>
+<span status="pass" class='badge log pass-bg'>11 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:26:53 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Registration</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:02 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Registration_with_NoData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:09 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Registration_2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:17 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Registration_3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:26 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Registration_With_InvalidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:39 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Registration_With_Incorrectpassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:47 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Registration_PasswordLength</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:55 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Registration_Policy</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:04 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Registration_Telephone</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:20 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Registration_Home</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:27 am</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Registration_Login</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">Login_Validation</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Login_Validation</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:47 am</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:53 am</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Login_With_NoData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:02 am</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Login_without_password</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:08 am</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Login_with_Invalid_data</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:29:13 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>ForgotPassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:16 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>ForgorPassword_email</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:18 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>ForgorPassword_email_check</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:27 am</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>ForgorPassword_email_invalidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:29:35 am</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>ForgorPassword_Back</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view device-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>34</span>
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">Chrome114</p>
+<p class="duration text-sm">39 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Chrome114</h4>
+<span status="pass" class='badge log pass-bg'>34 passed</span>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:26:53 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Registration</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:02 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Registration_with_NoData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:09 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Registration_2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:17 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Registration_3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:26 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Registration_With_InvalidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:39 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Registration_With_Incorrectpassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:47 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Registration_PasswordLength</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:55 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Registration_Policy</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:04 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Registration_Telephone</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:20 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Registration_Home</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:27 am</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Registration_Login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:47 am</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:53 am</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Login_With_NoData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:02 am</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Login_without_password</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:08 am</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Login_with_Invalid_data</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:29:13 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>ForgotPassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:16 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>ForgorPassword_email</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:18 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>ForgorPassword_email_check</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:27 am</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>ForgorPassword_email_invalidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:29:35 am</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>ForgorPassword_Back</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:39 am</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Logout_1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:45 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>Logout_2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:57 am</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Details_update</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:03 am</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>Back_Button</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:06 am</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Password_update</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:08 am</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>InvalidPassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:10 am</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>PasswordLength</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:12 am</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>Password_3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:13 am</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>MyAccount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:14 am</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>ADDing_New_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:17 am</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>Update_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:19 am</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>Delete_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:20 am</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>Back_button_Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:22 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>RegistrationEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:31 am</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>LogoutEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:34 am</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>LoginEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:39 am</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>LogoutEtoE2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:53 am</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>AddToCart</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:55 am</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>CheckingOutProduct</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>34</span>
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">Saikrishna</p>
+<p class="duration text-sm">39 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Saikrishna</h4>
+<span status="pass" class='badge log pass-bg'>34 passed</span>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:26:53 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Registration</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:02 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Registration_with_NoData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:09 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Registration_2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:17 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Registration_3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:26 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Registration_With_InvalidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:39 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Registration_With_Incorrectpassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:47 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Registration_PasswordLength</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:27:55 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Registration_Policy</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:04 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Registration_Telephone</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:20 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Registration_Home</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:27 am</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Registration_Login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:47 am</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Login</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:28:53 am</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Login_With_NoData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:02 am</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Login_without_password</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:08 am</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Login_with_Invalid_data</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:29:13 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>ForgotPassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:16 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>ForgorPassword_email</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:18 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>ForgorPassword_email_check</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:27 am</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>ForgorPassword_email_invalidData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:29:35 am</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>ForgorPassword_Back</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:39 am</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Logout_1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:45 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>Logout_2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:29:57 am</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Details_update</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:03 am</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>Back_Button</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:06 am</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Password_update</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:08 am</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>InvalidPassword</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:10 am</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>PasswordLength</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:12 am</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>Password_3</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:13 am</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>MyAccount</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:14 am</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>ADDing_New_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:17 am</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>Update_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:19 am</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>Delete_address</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:20 am</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>Back_button_Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:22 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>RegistrationEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:31 am</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>LogoutEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:34 am</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>LoginEtoE</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:39 am</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>LogoutEtoE2</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:30:53 am</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>AddToCart</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:30:55 am</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>CheckingOutProduct</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 5, 2023 09:26:49 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 5, 2023 09:31:17 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>34</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>5</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='87%'>
+<b>34</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='12%'><b>5</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'><b>199</b> events passed</small></div>
+<div>
+<small data-tooltip='2%'><b>5</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Registration":9.138,"Registration_with_NoData":6.193,"Registration_2":8.797,"Registration_3":8.87,"Registration_With_InvalidData":12.719,"Registration_With_Incorrectpassword":8.09,"Registration_PasswordLength":8.045,"Registration_Policy":8.951,"Registration_Telephone":15.768,"Registration_Home":7.146,"Registration_Login":7.157,"Login":5.956,"Login_With_NoData":9.014,"Login_without_password":5.234,"Login_with_Invalid_data":5.212,"ForgotPassword":2.956,"ForgorPassword_email":2.47,"ForgorPassword_email_check":9.229,"ForgorPassword_email_invalidData":7.085,"ForgorPassword_Back":2.725,"Logout_1":5.941,"Logout_2":6.377,"Details_update":6.405,"Back_Button":3.396,"Password_update":1.942,"InvalidPassword":1.753,"PasswordLength":1.831,"Password_3":1.278,"MyAccount":0.809,"ADDing_New_address":2.556,"Update_address":2.281,"Delete_address":1.003,"Back_button_Test":0.193,"RegistrationEtoE":8.303,"LogoutEtoE":3.109,"LoginEtoE":5.424,"LogoutEtoE2":3.101,"AddToCart":2.956,"CheckingOutProduct":18.049
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Saikrishna</td>
+<td>34</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>87.179%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Logout_Validation</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>MyAccount_Validation</td>
+<td>9</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>81.818%</td>
+</tr>
+<tr>
+<td>EndtoEndRegistration,LoginandLogout</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Orderplacement</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Registration_Validation</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Login_Validation</td>
+<td>7</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>77.778%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 device-container">
+<div class="card">
+<div class="card-header"><p>Device</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Chrome114</td>
+<td>34</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>87.179%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>19.0.1</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 34,
+failParent: 5,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 199,
+failEvents: 5,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

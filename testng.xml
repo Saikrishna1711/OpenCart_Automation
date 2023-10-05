@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Registration_page_Validation">
+		<classes>
+			<class name="Opencart_Test.Validate_Registration_page">
+				<methods>
+					<include name="Registration"></include>
+					<include name="Registration_with_NoData"></include>
+					<include name="Registration_2"></include>
+					<include name="Registration_3"></include>
+					<include name="Registration_With_InvalidData"></include>
+					<include name="Registration_With_Incorrectpassword"></include>
+					<include name="Registration_PasswordLength"></include>
+					<include name="Registration_Policy"></include>
+					<include name="Registration_Telephone"></include>
+					<include name="Registration_Home"></include>
+					<include name="Registration_Login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="LogIn_page_Validation">
+		<classes>
+			<class name="Opencart_Test.Validate_Login_page">
+				<methods>
+					<include name="Login"></include>
+					<include name="Login_With_NoData"></include>
+					<include name="Login_without_password"></include>
+					<include name=" Login_without_email"></include>
+					<include name="Login_with_Invalid_data"></include>
+					<include name="ForgotPassword"></include>
+					<include name="ForgorPassword_email"></include>
+					<include name="ForgorPassword_email_check"></include>
+					<include name="ForgorPassword_email_invalidData"></include>
+					<include name="ForgorPassword_Back"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="LogOut_page_Validation">
+		<classes>
+			<class name="Opencart_Test.Validate_LogOut_page">
+				<methods>
+					<include name="Logout_1"></include>
+					<include name="Logout_2"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="MyAccount_Features_Validation">
+		<classes>
+			<class name="Opencart_Test.Validate_MyAccountFeatures">
+				<methods>
+					<include name="Details_update"></include>
+					<include name="Back_Button"></include>
+					<include name="Password_update"></include>
+					<include name="InvalidPassword"></include>
+					<include name="PasswordLength"></include>
+					<include name="Password_3"></include>
+					<include name="MyAccount"></include>
+					<include name="ADDing_New_address"></include>
+					<include name="Update_address"></include>
+					<include name="Delete_address"></include>
+					<include name="Back_button_Test"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="EndtoEnd_Validation">
+		<classes>
+			<class
+				name="Opencart_Test.End_to_End_Registration_Login_Logout">
+				<methods>
+					<include name="RegistrationEtoE"></include>
+					<include name="LogoutEtoE"></include>
+					<include name="LoginEtoE"></include>
+					<include name="LogoutEtoE2"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Order_Placement">
+		<classes>
+			<class name="Opencart_Test.Order_placement">
+				<methods>
+					<include name="AddToCart"></include>
+					<include name="CheckingOutProduct"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+
+
+</suite> <!-- Suite -->

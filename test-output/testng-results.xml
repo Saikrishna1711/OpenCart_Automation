@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="40" passed="34" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-05T09:26:50 IST" name="Suite" finished-at="2023-10-05T09:31:17 IST" duration-ms="267014">
+    <groups>
+      <group name="End to End Registration, Login and Logout ">
+        <method signature="End_to_End_Registration_Login_Logout.RegistrationEtoE()[pri:1, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" name="RegistrationEtoE" class="Opencart_Test.End_to_End_Registration_Login_Logout"/>
+      </group> <!-- End to End Registration, Login and Logout  -->
+    </groups>
+    <test started-at="2023-10-05T09:26:50 IST" name="Registration_page_Validation" finished-at="2023-10-05T09:28:42 IST" duration-ms="112412">
+      <class name="Opencart_Test.Validate_Registration_page">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:26:50 IST" name="setUp" finished-at="2023-10-05T09:26:53 IST" duration-ms="3284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:26:53 IST" name="reporting" finished-at="2023-10-05T09:26:53 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration()[pri:1, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:26:53 IST" name="Registration" finished-at="2023-10-05T09:27:02 IST" duration-ms="9123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:02 IST" name="checkStatus" finished-at="2023-10-05T09:27:02 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration status=SUCCESS method=Validate_Registration_page.Registration()[pri:1, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:02 IST" name="reporting" finished-at="2023-10-05T09:27:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_with_NoData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration_with_NoData()[pri:2, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:02 IST" name="Registration_with_NoData" finished-at="2023-10-05T09:27:08 IST" duration-ms="6190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_with_NoData -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:08 IST" name="checkStatus" finished-at="2023-10-05T09:27:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_with_NoData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_with_NoData status=SUCCESS method=Validate_Registration_page.Registration_with_NoData()[pri:2, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="Registration_2()[pri:3, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:09 IST" name="Registration_2" finished-at="2023-10-05T09:27:17 IST" duration-ms="8793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_2 -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:09 IST" name="reporting" finished-at="2023-10-05T09:27:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:17 IST" name="checkStatus" finished-at="2023-10-05T09:27:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_2 status=SUCCESS method=Validate_Registration_page.Registration_2()[pri:3, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:17 IST" name="reporting" finished-at="2023-10-05T09:27:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration_3()[pri:4, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:17 IST" name="Registration_3" finished-at="2023-10-05T09:27:26 IST" duration-ms="8868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_3 -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:26 IST" name="checkStatus" finished-at="2023-10-05T09:27:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_3 status=SUCCESS method=Validate_Registration_page.Registration_3()[pri:4, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:26 IST" name="reporting" finished-at="2023-10-05T09:27:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_With_InvalidData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration_With_InvalidData()[pri:5, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:26 IST" name="Registration_With_InvalidData" finished-at="2023-10-05T09:27:39 IST" duration-ms="12717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_With_InvalidData -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:39 IST" name="checkStatus" finished-at="2023-10-05T09:27:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_With_InvalidData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_With_InvalidData status=SUCCESS method=Validate_Registration_page.Registration_With_InvalidData()[pri:5, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="Registration_With_Incorrectpassword()[pri:6, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:39 IST" name="Registration_With_Incorrectpassword" finished-at="2023-10-05T09:27:47 IST" duration-ms="8087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_With_Incorrectpassword -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:39 IST" name="reporting" finished-at="2023-10-05T09:27:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_With_Incorrectpassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:47 IST" name="checkStatus" finished-at="2023-10-05T09:27:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_With_Incorrectpassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_With_Incorrectpassword status=SUCCESS method=Validate_Registration_page.Registration_With_Incorrectpassword()[pri:6, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:47 IST" name="reporting" finished-at="2023-10-05T09:27:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_PasswordLength() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration_PasswordLength()[pri:7, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:47 IST" name="Registration_PasswordLength" finished-at="2023-10-05T09:27:55 IST" duration-ms="8041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_PasswordLength -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:55 IST" name="checkStatus" finished-at="2023-10-05T09:27:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_PasswordLength() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_PasswordLength status=SUCCESS method=Validate_Registration_page.Registration_PasswordLength()[pri:7, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:55 IST" name="reporting" finished-at="2023-10-05T09:27:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_Policy() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration_Policy()[pri:8, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:27:55 IST" name="Registration_Policy" finished-at="2023-10-05T09:28:04 IST" duration-ms="8949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_Policy -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:04 IST" name="checkStatus" finished-at="2023-10-05T09:28:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_Policy() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_Policy status=SUCCESS method=Validate_Registration_page.Registration_Policy()[pri:8, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:04 IST" name="reporting" finished-at="2023-10-05T09:28:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_Telephone() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration_Telephone()[pri:9, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:04 IST" name="Registration_Telephone" finished-at="2023-10-05T09:28:20 IST" duration-ms="15767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_Telephone -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:20 IST" name="checkStatus" finished-at="2023-10-05T09:28:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_Telephone() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_Telephone status=SUCCESS method=Validate_Registration_page.Registration_Telephone()[pri:9, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:20 IST" name="reporting" finished-at="2023-10-05T09:28:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_Home() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration_Home()[pri:10, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:20 IST" name="Registration_Home" finished-at="2023-10-05T09:28:27 IST" duration-ms="7145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_Home -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:27 IST" name="checkStatus" finished-at="2023-10-05T09:28:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_Home() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_Home status=SUCCESS method=Validate_Registration_page.Registration_Home()[pri:10, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:27 IST" name="reporting" finished-at="2023-10-05T09:28:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Registration_Login()[pri:11, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:27 IST" name="Registration_Login" finished-at="2023-10-05T09:28:34 IST" duration-ms="7155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_Login -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:34 IST" name="checkStatus" finished-at="2023-10-05T09:28:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Registration_page.Registration_Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Registration_Login status=SUCCESS method=Validate_Registration_page.Registration_Login()[pri:11, instance:Opencart_Test.Validate_Registration_page@188715b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="TearUp()[pri:0, instance:Opencart_Test.Validate_Registration_page@188715b5]" started-at="2023-10-05T09:28:34 IST" name="TearUp" finished-at="2023-10-05T09:28:42 IST" duration-ms="8190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearUp -->
+      </class> <!-- Opencart_Test.Validate_Registration_page -->
+    </test> <!-- Registration_page_Validation -->
+    <test started-at="2023-10-05T09:28:42 IST" name="LogIn_page_Validation" finished-at="2023-10-05T09:29:37 IST" duration-ms="55073">
+      <class name="Opencart_Test.Validate_Login_page">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:28:42 IST" name="Setup" finished-at="2023-10-05T09:28:47 IST" duration-ms="5053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:28:47 IST" name="reporting" finished-at="2023-10-05T09:28:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Login()[pri:1, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:28:47 IST" name="Login" finished-at="2023-10-05T09:28:53 IST" duration-ms="5953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:28:53 IST" name="checkStatus" finished-at="2023-10-05T09:28:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.Login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Validate_Login_page.Login()[pri:1, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:28:53 IST" name="reporting" finished-at="2023-10-05T09:28:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.Login_With_NoData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Login_With_NoData()[pri:2, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:28:53 IST" name="Login_With_NoData" finished-at="2023-10-05T09:29:02 IST" duration-ms="9012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_NoData -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:02 IST" name="checkStatus" finished-at="2023-10-05T09:29:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.Login_With_NoData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Login_With_NoData status=SUCCESS method=Validate_Login_page.Login_With_NoData()[pri:2, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:02 IST" name="reporting" finished-at="2023-10-05T09:29:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.Login_without_password() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Login_without_password()[pri:3, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:02 IST" name="Login_without_password" finished-at="2023-10-05T09:29:08 IST" duration-ms="5233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_without_password -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:08 IST" name="checkStatus" finished-at="2023-10-05T09:29:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.Login_without_password() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Login_without_password status=SUCCESS method=Validate_Login_page.Login_without_password()[pri:3, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:08 IST" name="reporting" finished-at="2023-10-05T09:29:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.Login_with_Invalid_data() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Login_with_Invalid_data()[pri:5, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:08 IST" name="Login_with_Invalid_data" finished-at="2023-10-05T09:29:13 IST" duration-ms="5211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_Invalid_data -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:13 IST" name="checkStatus" finished-at="2023-10-05T09:29:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.Login_with_Invalid_data() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Login_with_Invalid_data status=SUCCESS method=Validate_Login_page.Login_with_Invalid_data()[pri:5, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:13 IST" name="reporting" finished-at="2023-10-05T09:29:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgotPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="ForgotPassword()[pri:6, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:13 IST" name="ForgotPassword" finished-at="2023-10-05T09:29:15 IST" duration-ms="2642" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".list-inline  ul > li:nth-of-type(5) > a"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6379ece36fa72d209d7ae65ab997c6e8
+*** Element info: {Using=css selector, value=.list-inline  ul > li:nth-of-type(5) > a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".list-inline  ul > li:nth-of-type(5) > a"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6379ece36fa72d209d7ae65ab997c6e8
+*** Element info: {Using=css selector, value=.list-inline  ul > li:nth-of-type(5) > a}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Page_Objects.Logout_page.getLogoutBtn(Logout_page.java:22)
+at Opencart_Test.Validate_Login_page.ForgotPassword(Validate_Login_page.java:199)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:15 IST" name="checkStatus" finished-at="2023-10-05T09:29:16 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgotPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ForgotPassword status=FAILURE method=Validate_Login_page.ForgotPassword()[pri:6, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:16 IST" name="reporting" finished-at="2023-10-05T09:29:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgorPassword_email() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="ForgorPassword_email()[pri:7, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:16 IST" name="ForgorPassword_email" finished-at="2023-10-05T09:29:18 IST" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgorPassword_email -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:18 IST" name="checkStatus" finished-at="2023-10-05T09:29:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgorPassword_email() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ForgorPassword_email status=SUCCESS method=Validate_Login_page.ForgorPassword_email()[pri:7, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:18 IST" name="reporting" finished-at="2023-10-05T09:29:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgorPassword_email_check() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="ForgorPassword_email_check()[pri:8, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:18 IST" name="ForgorPassword_email_check" finished-at="2023-10-05T09:29:27 IST" duration-ms="9226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgorPassword_email_check -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:27 IST" name="checkStatus" finished-at="2023-10-05T09:29:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgorPassword_email_check() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ForgorPassword_email_check status=SUCCESS method=Validate_Login_page.ForgorPassword_email_check()[pri:8, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:27 IST" name="reporting" finished-at="2023-10-05T09:29:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgorPassword_email_invalidData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="ForgorPassword_email_invalidData()[pri:9, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:27 IST" name="ForgorPassword_email_invalidData" finished-at="2023-10-05T09:29:35 IST" duration-ms="7084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgorPassword_email_invalidData -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:35 IST" name="checkStatus" finished-at="2023-10-05T09:29:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgorPassword_email_invalidData() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ForgorPassword_email_invalidData status=SUCCESS method=Validate_Login_page.ForgorPassword_email_invalidData()[pri:9, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:35 IST" name="reporting" finished-at="2023-10-05T09:29:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgorPassword_Back() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="ForgorPassword_Back()[pri:10, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:35 IST" name="ForgorPassword_Back" finished-at="2023-10-05T09:29:37 IST" duration-ms="2486" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Back"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6379ece36fa72d209d7ae65ab997c6e8
+*** Element info: {Using=link text, value=Back}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Back"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6379ece36fa72d209d7ae65ab997c6e8
+*** Element info: {Using=link text, value=Back}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Page_Objects.Login_page.getBackBtn(Login_page.java:50)
+at Opencart_Test.Validate_Login_page.ForgorPassword_Back(Validate_Login_page.java:287)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgorPassword_Back -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:37 IST" name="checkStatus" finished-at="2023-10-05T09:29:37 IST" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_Login_page.ForgorPassword_Back() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ForgorPassword_Back status=FAILURE method=Validate_Login_page.ForgorPassword_Back()[pri:10, instance:Opencart_Test.Validate_Login_page@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:Opencart_Test.Validate_Login_page@294425a7]" started-at="2023-10-05T09:29:37 IST" name="tearUp" finished-at="2023-10-05T09:29:37 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- Opencart_Test.Validate_Login_page -->
+    </test> <!-- LogIn_page_Validation -->
+    <test started-at="2023-10-05T09:29:37 IST" name="LogOut_page_Validation" finished-at="2023-10-05T09:29:52 IST" duration-ms="14230">
+      <class name="Opencart_Test.Validate_LogOut_page">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Opencart_Test.Validate_LogOut_page@37afeb11]" started-at="2023-10-05T09:29:37 IST" name="Setup" finished-at="2023-10-05T09:29:39 IST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_LogOut_page@37afeb11]" started-at="2023-10-05T09:29:39 IST" name="reporting" finished-at="2023-10-05T09:29:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_LogOut_page.Logout_1() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Logout_1()[pri:1, instance:Opencart_Test.Validate_LogOut_page@37afeb11]" started-at="2023-10-05T09:29:39 IST" name="Logout_1" finished-at="2023-10-05T09:29:45 IST" duration-ms="5941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_1 -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_LogOut_page@37afeb11]" started-at="2023-10-05T09:29:45 IST" name="checkStatus" finished-at="2023-10-05T09:29:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_LogOut_page.Logout_1() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Logout_1 status=SUCCESS method=Validate_LogOut_page.Logout_1()[pri:1, instance:Opencart_Test.Validate_LogOut_page@37afeb11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="Logout_2()[pri:2, instance:Opencart_Test.Validate_LogOut_page@37afeb11]" started-at="2023-10-05T09:29:45 IST" name="Logout_2" finished-at="2023-10-05T09:29:52 IST" duration-ms="6376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_2 -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_LogOut_page@37afeb11]" started-at="2023-10-05T09:29:45 IST" name="reporting" finished-at="2023-10-05T09:29:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_LogOut_page.Logout_2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_LogOut_page@37afeb11]" started-at="2023-10-05T09:29:52 IST" name="checkStatus" finished-at="2023-10-05T09:29:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_LogOut_page.Logout_2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Logout_2 status=SUCCESS method=Validate_LogOut_page.Logout_2()[pri:2, instance:Opencart_Test.Validate_LogOut_page@37afeb11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:Opencart_Test.Validate_LogOut_page@37afeb11]" started-at="2023-10-05T09:29:52 IST" name="tearUp" finished-at="2023-10-05T09:29:52 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- Opencart_Test.Validate_LogOut_page -->
+    </test> <!-- LogOut_page_Validation -->
+    <test started-at="2023-10-05T09:29:52 IST" name="MyAccount_Features_Validation" finished-at="2023-10-05T09:30:21 IST" duration-ms="29197">
+      <class name="Opencart_Test.Validate_MyAccountFeatures">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:29:52 IST" name="Setup" finished-at="2023-10-05T09:29:57 IST" duration-ms="4925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:29:57 IST" name="reporting" finished-at="2023-10-05T09:29:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Details_update() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Details_update()[pri:1, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:29:57 IST" name="Details_update" finished-at="2023-10-05T09:30:03 IST" duration-ms="6404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Details_update -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:03 IST" name="checkStatus" finished-at="2023-10-05T09:30:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Details_update() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Details_update status=SUCCESS method=Validate_MyAccountFeatures.Details_update()[pri:1, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="Back_Button()[pri:2, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:03 IST" name="Back_Button" finished-at="2023-10-05T09:30:06 IST" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Back_Button -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:03 IST" name="reporting" finished-at="2023-10-05T09:30:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Back_Button() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:06 IST" name="checkStatus" finished-at="2023-10-05T09:30:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Back_Button() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Back_Button status=SUCCESS method=Validate_MyAccountFeatures.Back_Button()[pri:2, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="Password_update()[pri:3, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:06 IST" name="Password_update" finished-at="2023-10-05T09:30:08 IST" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password_update -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:06 IST" name="reporting" finished-at="2023-10-05T09:30:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Password_update()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:08 IST" name="checkStatus" finished-at="2023-10-05T09:30:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Password_update()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Password_update status=SUCCESS method=Validate_MyAccountFeatures.Password_update()[pri:3, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:08 IST" name="reporting" finished-at="2023-10-05T09:30:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.InvalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="InvalidPassword()[pri:4, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:08 IST" name="InvalidPassword" finished-at="2023-10-05T09:30:10 IST" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPassword -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:10 IST" name="checkStatus" finished-at="2023-10-05T09:30:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.InvalidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=InvalidPassword status=SUCCESS method=Validate_MyAccountFeatures.InvalidPassword()[pri:4, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:10 IST" name="reporting" finished-at="2023-10-05T09:30:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.PasswordLength()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="PasswordLength()[pri:5, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:10 IST" name="PasswordLength" finished-at="2023-10-05T09:30:12 IST" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordLength -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:12 IST" name="checkStatus" finished-at="2023-10-05T09:30:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.PasswordLength()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=PasswordLength status=SUCCESS method=Validate_MyAccountFeatures.PasswordLength()[pri:5, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:12 IST" name="reporting" finished-at="2023-10-05T09:30:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Password_3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Password_3()[pri:6, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:12 IST" name="Password_3" finished-at="2023-10-05T09:30:13 IST" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password_3 -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:13 IST" name="checkStatus" finished-at="2023-10-05T09:30:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Password_3()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Password_3 status=SUCCESS method=Validate_MyAccountFeatures.Password_3()[pri:6, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:13 IST" name="reporting" finished-at="2023-10-05T09:30:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.MyAccount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="MyAccount()[pri:7, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:13 IST" name="MyAccount" finished-at="2023-10-05T09:30:14 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccount -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:14 IST" name="checkStatus" finished-at="2023-10-05T09:30:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.MyAccount()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=MyAccount status=SUCCESS method=Validate_MyAccountFeatures.MyAccount()[pri:7, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="ADDing_New_address()[pri:8, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:14 IST" name="ADDing_New_address" finished-at="2023-10-05T09:30:17 IST" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADDing_New_address -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:14 IST" name="reporting" finished-at="2023-10-05T09:30:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.ADDing_New_address()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:17 IST" name="checkStatus" finished-at="2023-10-05T09:30:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.ADDing_New_address()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ADDing_New_address status=SUCCESS method=Validate_MyAccountFeatures.ADDing_New_address()[pri:8, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="Update_address()[pri:9, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:17 IST" name="Update_address" finished-at="2023-10-05T09:30:19 IST" duration-ms="2279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update_address -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:17 IST" name="reporting" finished-at="2023-10-05T09:30:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Update_address()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:19 IST" name="checkStatus" finished-at="2023-10-05T09:30:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Update_address()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Update_address status=SUCCESS method=Validate_MyAccountFeatures.Update_address()[pri:9, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:19 IST" name="reporting" finished-at="2023-10-05T09:30:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Delete_address()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Delete_address()[pri:10, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:19 IST" name="Delete_address" finished-at="2023-10-05T09:30:20 IST" duration-ms="780" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div#account-address > .alert.alert-dismissible.alert-success"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1da80daf078b1357c2209e5db34d49c8
+*** Element info: {Using=css selector, value=div#account-address > .alert.alert-dismissible.alert-success}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div#account-address > .alert.alert-dismissible.alert-success"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1da80daf078b1357c2209e5db34d49c8
+*** Element info: {Using=css selector, value=div#account-address > .alert.alert-dismissible.alert-success}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Page_Objects.MyAccount_page.getBsucessmessage(MyAccount_page.java:150)
+at Opencart_Test.Validate_MyAccountFeatures.Delete_address(Validate_MyAccountFeatures.java:310)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_address -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:20 IST" name="checkStatus" finished-at="2023-10-05T09:30:20 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Delete_address()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Delete_address status=FAILURE method=Validate_MyAccountFeatures.Delete_address()[pri:10, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:20 IST" name="reporting" finished-at="2023-10-05T09:30:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Back_button_Test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="Back_button_Test()[pri:11, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:20 IST" name="Back_button_Test" finished-at="2023-10-05T09:30:20 IST" duration-ms="16" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div#content > ul:nth-of-type(1) > li:nth-of-type(3) > a"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1da80daf078b1357c2209e5db34d49c8
+*** Element info: {Using=css selector, value=div#content > ul:nth-of-type(1) > li:nth-of-type(3) > a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div#content > ul:nth-of-type(1) > li:nth-of-type(3) > a"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1da80daf078b1357c2209e5db34d49c8
+*** Element info: {Using=css selector, value=div#content > ul:nth-of-type(1) > li:nth-of-type(3) > a}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Page_Objects.MyAccount_page.getAddressBook(MyAccount_page.java:62)
+at Opencart_Test.Validate_MyAccountFeatures.Back_button_Test(Validate_MyAccountFeatures.java:327)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Back_button_Test -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:20 IST" name="checkStatus" finished-at="2023-10-05T09:30:20 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Validate_MyAccountFeatures.Back_button_Test()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Back_button_Test status=FAILURE method=Validate_MyAccountFeatures.Back_button_Test()[pri:11, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:Opencart_Test.Validate_MyAccountFeatures@3a93b025]" started-at="2023-10-05T09:30:20 IST" name="tearUp" finished-at="2023-10-05T09:30:21 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- Opencart_Test.Validate_MyAccountFeatures -->
+    </test> <!-- MyAccount_Features_Validation -->
+    <test started-at="2023-10-05T09:30:21 IST" name="EndtoEnd_Validation" finished-at="2023-10-05T09:30:46 IST" duration-ms="24754">
+      <class name="Opencart_Test.End_to_End_Registration_Login_Logout">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:21 IST" name="setUp" finished-at="2023-10-05T09:30:22 IST" duration-ms="1558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:22 IST" name="reporting" finished-at="2023-10-05T09:30:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.End_to_End_Registration_Login_Logout.RegistrationEtoE() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="RegistrationEtoE()[pri:1, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:22 IST" name="RegistrationEtoE" finished-at="2023-10-05T09:30:31 IST" duration-ms="8302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationEtoE -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:31 IST" name="checkStatus" finished-at="2023-10-05T09:30:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.End_to_End_Registration_Login_Logout.RegistrationEtoE() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=RegistrationEtoE status=SUCCESS method=End_to_End_Registration_Login_Logout.RegistrationEtoE()[pri:1, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:31 IST" name="reporting" finished-at="2023-10-05T09:30:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.End_to_End_Registration_Login_Logout.LogoutEtoE() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="LogoutEtoE()[pri:2, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:31 IST" name="LogoutEtoE" finished-at="2023-10-05T09:30:34 IST" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutEtoE -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:34 IST" name="checkStatus" finished-at="2023-10-05T09:30:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.End_to_End_Registration_Login_Logout.LogoutEtoE() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LogoutEtoE status=SUCCESS method=End_to_End_Registration_Login_Logout.LogoutEtoE()[pri:2, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:34 IST" name="reporting" finished-at="2023-10-05T09:30:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.End_to_End_Registration_Login_Logout.LoginEtoE() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="LoginEtoE()[pri:3, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:34 IST" name="LoginEtoE" finished-at="2023-10-05T09:30:39 IST" duration-ms="5422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEtoE -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:39 IST" name="checkStatus" finished-at="2023-10-05T09:30:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.End_to_End_Registration_Login_Logout.LoginEtoE() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LoginEtoE status=SUCCESS method=End_to_End_Registration_Login_Logout.LoginEtoE()[pri:3, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="LogoutEtoE2()[pri:4, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:39 IST" name="LogoutEtoE2" finished-at="2023-10-05T09:30:42 IST" duration-ms="3100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutEtoE2 -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:39 IST" name="reporting" finished-at="2023-10-05T09:30:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.End_to_End_Registration_Login_Logout.LogoutEtoE2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:42 IST" name="checkStatus" finished-at="2023-10-05T09:30:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.End_to_End_Registration_Login_Logout.LogoutEtoE2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LogoutEtoE2 status=SUCCESS method=End_to_End_Registration_Login_Logout.LogoutEtoE2()[pri:4, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="TearUp()[pri:0, instance:Opencart_Test.End_to_End_Registration_Login_Logout@223d2c72]" started-at="2023-10-05T09:30:42 IST" name="TearUp" finished-at="2023-10-05T09:30:46 IST" duration-ms="3253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearUp -->
+      </class> <!-- Opencart_Test.End_to_End_Registration_Login_Logout -->
+    </test> <!-- EndtoEnd_Validation -->
+    <test started-at="2023-10-05T09:30:46 IST" name="Order_Placement" finished-at="2023-10-05T09:31:17 IST" duration-ms="31194">
+      <class name="Opencart_Test.Order_placement">
+        <test-method is-config="true" signature="createExtentReports()[pri:0, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:26:49 IST" name="createExtentReports" finished-at="2023-10-05T09:26:50 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentReports -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:30:46 IST" name="setUp" finished-at="2023-10-05T09:30:53 IST" duration-ms="6887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:30:53 IST" name="reporting" finished-at="2023-10-05T09:30:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Order_placement.AddToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="AddToCart()[pri:1, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:30:53 IST" name="AddToCart" finished-at="2023-10-05T09:30:55 IST" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:30:55 IST" name="checkStatus" finished-at="2023-10-05T09:30:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Order_placement.AddToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=Order_placement.AddToCart()[pri:1, instance:Opencart_Test.Order_placement@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="reporting(java.lang.reflect.Method)[pri:0, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:30:55 IST" name="reporting" finished-at="2023-10-05T09:30:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Order_placement.CheckingOutProduct() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporting -->
+        <test-method signature="CheckingOutProduct()[pri:2, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:30:55 IST" name="CheckingOutProduct" finished-at="2023-10-05T09:31:13 IST" duration-ms="17834" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : SyntaxError: Unexpected token '<', "<b>Warning"... is not valid JSON
+OK
+<b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b><b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b>{"redirect":"http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success"}}
+  (Session info: chrome=117.0.5938.92): SyntaxError: Unexpected token '<', "<b>Warning"... is not valid JSON
+OK
+<b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b><b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b>{"redirect":"http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success"}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8368338e1a7468766ed27a87a4d02f52
+*** Element info: {Using=css selector, value=input#button-confirm}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: Unexpected token '<', "<b>Warning"... is not valid JSON
+OK
+<b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b><b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b>{"redirect":"http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success"}}
+  (Session info: chrome=117.0.5938.92): SyntaxError: Unexpected token '<', "<b>Warning"... is not valid JSON
+OK
+<b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b><b>Warning</b>: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in <b>C:\xampp\htdocs\opencart\upload\system\library\mail\mail.php</b> on line <b>77</b>{"redirect":"http:\/\/localhost\/opencart\/upload\/index.php?route=checkout\/success"}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KITTU', ip: '192.168.10.37', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.88 (be6afae47212..., userDataDir: C:\Users\91728\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8368338e1a7468766ed27a87a4d02f52
+*** Element info: {Using=css selector, value=input#button-confirm}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Page_Objects.Order_placement_page.getConfirmBtn(Order_placement_page.java:96)
+at Opencart_Test.Order_placement.CheckingOutProduct(Order_placement.java:138)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingOutProduct -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:31:13 IST" name="checkStatus" finished-at="2023-10-05T09:31:14 IST" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Opencart_Test.Order_placement.CheckingOutProduct() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CheckingOutProduct status=FAILURE method=Order_placement.CheckingOutProduct()[pri:2, instance:Opencart_Test.Order_placement@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="TearUp()[pri:0, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:31:14 IST" name="TearUp" finished-at="2023-10-05T09:31:17 IST" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearUp -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:Opencart_Test.Order_placement@77847718]" started-at="2023-10-05T09:31:17 IST" name="flush" finished-at="2023-10-05T09:31:18 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- Opencart_Test.Order_placement -->
+    </test> <!-- Order_Placement -->
+  </suite> <!-- Suite -->
+</testng-results>
